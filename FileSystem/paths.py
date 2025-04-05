@@ -11,6 +11,17 @@ def create_path():
     path = script_dir / 'characters'
     path.mkdir(parents=True, exist_ok=True)
 
+    path = path / 'zelda.txt'
+
+    file = path.open('w')
+
+    file.write("Ganon")
+
+    file.close()
+
+    # path.write_text("Xyz")
+    content= path.read_text()
+    print(content)
     return
 
 def main():

@@ -1,0 +1,24 @@
+{
+  "characters": [
+    {
+      "Name": "Mario",
+      "age": 25
+    },
+    {
+      "Name": "Luigi",
+      "age": 26
+    },
+    {
+      "Name": "Peach",
+      "age": 27
+    },
+    {
+      "Name": "Age",
+      "age": 28
+    },
+    {
+      "Name": "John",
+      "age": 29
+    }
+  ]
+}
