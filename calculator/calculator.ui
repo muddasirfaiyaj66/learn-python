@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>245</width>
+    <height>477</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget{
+		background-color:black;
+}</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>231</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="layoutDirection">
+    <enum>Qt::RightToLeft</enum>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    color: white;
+    padding: 0px 5px;
+}</string>
+   </property>
+   <property name="inputMask">
+    <string/>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+   <property name="dragEnabled">
+    <bool>false</bool>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>350</y>
+     <width>231</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="sevenBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="eightBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="nineBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="DELBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:blue;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>DEL</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ACBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:blue;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>AC</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="fourBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="fiveBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sixBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="multiplyBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>X</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="divisionBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QPushButton" name="oneBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="twoBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="threeBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="plusBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>+</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="minusBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="zeroBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="dotBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="percentage">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="AnsBtn">
+        <property name="maximumSize">
+         <size>
+          <width>31</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>Ans</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="equalBtn">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:white;
+color:black
+}</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>NSimSun</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit{
+color:white;
+border:none
+}</string>
+   </property>
+   <property name="text">
+    <string>CASIO</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>10</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLineEdit {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #0d1b2a,
+        stop:0.5 #183b5a,
+        stop:1 #264b6d
+    );
+    border: 1px solid #0a1929;
+    border-radius: 4px;
+    padding: 4px;
+}
+</string>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>235</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QRadioButton" name="degree">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton{
+background-color:gray;
+color:white;
+
+
+}</string>
+        </property>
+        <property name="text">
+         <string>Deg</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QRadioButton" name="radians">
+        <property name="styleSheet">
+         <string notr="true">QRadioButton{
+background-color:gray;
+color:white;
+
+
+}</string>
+        </property>
+        <property name="text">
+         <string>Rad</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="left_parenthesis">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>(</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="right_parenthesis">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pi">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>π</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QPushButton" name="sin">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>sin</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cos">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>cos</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="tan">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>tan</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="logarithm">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>log</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ln">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>ln</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_7">
+      <item>
+       <widget class="QPushButton" name="sine_inverse">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>sin⁻¹</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="cos_inverse">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>cos⁻¹</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="tan_inverse">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>tan⁻¹</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="e_to_the_power_x">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>e^x</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="x_inverse_one">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>x⁻¹</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_8">
+      <item>
+       <widget class="QPushButton" name="x_square">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>x^2</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="ten_to_the_power_x">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>10^x</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="y_root_of_x">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>y√ x</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="x_power_of_y">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>x^y</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="sqRoot">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>√ </string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_9">
+      <item>
+       <widget class="QPushButton" name="decimal">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>DEC</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="hexadeciamal">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>HEX</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="binary">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>BIN</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="octal">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>OCT</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="factorial">
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton{
+
+background-color:gray;
+color:white
+}</string>
+        </property>
+        <property name="text">
+         <string>x!</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
