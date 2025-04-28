@@ -904,7 +904,9 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "Form"))
+        Form.setWindowTitle(_translate("Form", "Calculator"))
+        parentLoc = Path(__file__).parent
+        Form.setWindowIcon(QIcon(f'{parentLoc}/calculator.png'))
         self.lineEdit.setText(_translate("Form", "0"))
         self.sevenBtn.setText(_translate("Form", "7"))
         self.eightBtn.setText(_translate("Form", "8"))
