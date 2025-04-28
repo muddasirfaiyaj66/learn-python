@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>245</width>
+    <width>247</width>
     <height>477</height>
    </rect>
   </property>
@@ -547,13 +547,13 @@ border:none
     <bool>true</bool>
    </property>
   </widget>
-  <widget class="QWidget" name="">
+  <widget class="QWidget" name="layoutWidget">
    <property name="geometry">
     <rect>
      <x>10</x>
-     <y>100</y>
+     <y>110</y>
      <width>235</width>
-     <height>241</height>
+     <height>231</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -1068,6 +1068,26 @@ color:white
      </layout>
     </item>
    </layout>
+  </widget>
+  <widget class="QPushButton" name="databtn">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>100</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+
+background-color:red;
+color:white
+}</string>
+   </property>
+   <property name="text">
+    <string>Data</string>
+   </property>
   </widget>
  </widget>
  <resources/>
