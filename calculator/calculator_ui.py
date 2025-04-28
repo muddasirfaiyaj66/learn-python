@@ -10,7 +10,9 @@ import sys
 import math
 from PyQt6.QtWidgets import QWidget , QApplication
 from PyQt6 import QtCore, QtGui, QtWidgets
+from PyQt6.QtGui import QIcon
 from pymongo import MongoClient
+from pathlib import Path
 import datetime
 
 class Calculator(QWidget):
