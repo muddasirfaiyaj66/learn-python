@@ -11,6 +11,14 @@ def rescaleFrame(frame, scale=0.75):
 
 parent_dir = Path(__file__).parent
 
+
+#change resulation of webcam
+
+def changeRes(width, height):
+    
+    #only work for live video capture
+    capture.set(3,width)
+    capture.set(4,height)
 #image rescale part
 img = cv.imread(f'{parent_dir}/assets/photos/img1.jpg')
 
